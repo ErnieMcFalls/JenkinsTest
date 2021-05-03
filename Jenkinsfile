@@ -18,7 +18,7 @@ pipeline {
           }
         }
         steps{
-          echo "we're not in main"
+          echo "boy"
         }
       }
       stage('Four'){
