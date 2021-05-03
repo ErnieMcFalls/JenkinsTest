@@ -3,7 +3,7 @@ pipeline {
     stages {
       stage('One'){
         steps{
-          echo 'Step one engaged'
+          echo "Step one engaged"
         }
       }
       stage('Two'){
@@ -36,7 +36,7 @@ pipeline {
               }
             }
             steps{
-              echo "Running the unit test..."
+              echo "Running the integration test..."
             }
           }
         }
